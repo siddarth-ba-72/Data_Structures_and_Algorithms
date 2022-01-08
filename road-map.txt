@@ -1,0 +1,69 @@
+1. Introduction:
+
+- Mathematics
+- Bit Manipulation
+- Recursion
+
+2. Basic Data Structures:
+
+- Array ✓
+- Matrix
+- String
+- Hash Table
+- Linked List ✓
+- Stack
+- Queue
+- Tree
+- Trie
+- Graph
+- Heap
+- Disjoint Set
+
+3. Algorithms:
+
+- Searching
+- Sorting
+- Hashing
+- Greedy Algorithms
+- Backtracking
+- Dynamic Programming
+
+4. Popular Algorithms:
+
+- Linear Search
+- Jump Search
+- Binary Search
+- Breadth First Search
+- Depth First Search
+
+- Bubble Sort
+- Insertion Sort
+- Heap Sort
+- Merge Sort
+- Selection Sort
+- Quick Sort
+- Counting Sort
+
+- Union Find Algorithm
+- Huffman Coding Compression Algorithm
+- Euclidean Algorithm
+
+- Kadane's Algorithm
+- Floyd's Cycle-Finding Algorithm
+- KMP Algorithm
+- QuickSelect Algorithm
+- Boyer-Moore Majority Vote Algorithm
+
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Bellman-Ford Algorithm
+- Topological Sort
+- Floyd Warshall Algorithm
+- Flood Fill Algorithm
+- Lee Algorithm
+
+- Kahn's Topological Sort
+
+
+
+
