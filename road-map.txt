@@ -46,13 +46,14 @@
 
 - Union Find Algorithm
 - Huffman Coding Compression Algorithm
-- Euclidean Algorithm
+- Euclidean Algorithm ✓ (_2_MATHEMATICS -> _6_gcd.java)
+- Sieve of Eratosthenes ✓ (_2_MATHEMATICS -> _11_sieveOfEratosthenes.java)
 
-- Kadane's Algorithm
-- Floyd's Cycle-Finding Algorithm
+- Kadane's Algorithm ✓ (_5_ARRAYS -> _17_maxLenEvenOdd.java)
+- Floyd's Cycle-Finding Algorithm ✓ (_11_LINKED_LIST -> _30_detectLoop.cpp)
 - KMP Algorithm
 - QuickSelect Algorithm
-- Boyer-Moore Majority Vote Algorithm
+- Boyer-Moore Majority Vote Algorithm ✓ (_5_ARRAYS -> _17_majElement.java)
 
 - Kruskal's Algorithm
 - Dijkstra's Algorithm

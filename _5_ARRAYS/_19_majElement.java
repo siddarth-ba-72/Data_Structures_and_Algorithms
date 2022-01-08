@@ -39,7 +39,7 @@ public class _19_majElement {
     // TC: O(n^2)
 
     // Optimized solution
-    // MOORE's VOTING ALGORITHM
+    // ? MOORE's VOTING ALGORITHM
     public static int findMajority(int[] arr) {
         int n = arr.length;
         int res = 0, count = 1;

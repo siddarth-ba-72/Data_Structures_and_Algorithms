@@ -41,7 +41,7 @@ public class _17_maxLenEvenOdd {
     // TC: O(n^2)
 
     // Optimized solution
-    // KADEIN's ALGORITHM
+    // ? KADANE's ALGORITHM
     public static int maxEvenOdd(int arr[]) {
         int n = arr.length;
         int res = 1;

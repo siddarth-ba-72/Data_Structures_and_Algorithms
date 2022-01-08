@@ -28,7 +28,7 @@ public class _6_gcd {
     // In Worst case gcd cannot be found
 
     // Optimized solution
-    // EUCLIDEAN ALGORITHM
+    // ? EUCLIDEAN ALGORITHM
     public static int gdc_Euclidean(int a, int b) {
         while (a != b) {
             if (a > b) {
