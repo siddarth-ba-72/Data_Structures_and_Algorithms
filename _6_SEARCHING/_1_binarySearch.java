@@ -36,7 +36,9 @@ public class _1_binarySearch {
     // * Linear search method, assuming that the array is not sorted
     // * TC: Theta(n)
 
-    // * BINARY SEARCH Iterative
+    // * BINARY SEARCH ALGORITHM
+
+    // * Iterative
     public static int findElemIterative(int arr[], int k) {
         int n = arr.length;
         int low = 0;
@@ -53,7 +55,7 @@ public class _1_binarySearch {
         return -1;
     }
 
-    // * BINARY SEARCH Recursive
+    // * Recursive
     public static int binarySearchRecursive(int arr[], int low, int high, int k) {
         while (low <= high) {
             int mid = (low + high) / 2;

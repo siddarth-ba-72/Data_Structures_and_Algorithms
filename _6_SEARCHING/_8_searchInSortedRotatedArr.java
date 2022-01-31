@@ -62,5 +62,6 @@ public class _8_searchInSortedRotatedArr {
         }
         return -1;
     }
+    // * TC: O(log(n))
 
 }

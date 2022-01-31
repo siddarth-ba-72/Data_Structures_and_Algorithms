@@ -23,14 +23,15 @@ public class _12_repeatingElements {
 
     public static int findRepeatingElements(int arr[]) {
         int slow = arr[0], fast = arr[0];
+        int n = arr.length;
         do {
-            slow = arr[slow];
-            fast = arr[arr[fast]];
+            slow = arr[slow % n];
+            fast = arr[arr[fast % n] % n];
         } while (slow != fast);
         slow = arr[0] + 1;
         while (slow != fast) {
-            fast = arr[fast];
-            slow = arr[slow];
+            fast = arr[fast % n];
+            slow = arr[slow % n];
         }
         return slow;
     }

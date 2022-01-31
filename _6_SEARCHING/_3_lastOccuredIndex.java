@@ -57,9 +57,9 @@ public class _3_lastOccuredIndex {
         while (low <= high) {
             int mid = (low + high) / 2;
             if (arr[mid] > k)
-                low = mid + 1;
-            else if (arr[mid] < k)
                 high = mid - 1;
+            else if (arr[mid] < k)
+                low = mid + 1;
             else {
                 if (mid == n - 1 || arr[mid] != arr[mid + 1])
                     return mid;

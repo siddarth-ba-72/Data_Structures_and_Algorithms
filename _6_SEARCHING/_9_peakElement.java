@@ -49,12 +49,12 @@ public class _9_peakElement {
     public static void peakElement(int arr[]) {
         ArrayList<Integer> ans = new ArrayList<Integer>();
         int n = arr.length;
-        // if (n == 1)
-        // ans.add(arr[0]);
-        // if (arr[0] >= arr[1])
-        // ans.add(arr[0]);
-        // if (arr[n - 1] >= arr[n - 2])
-        // ans.add(arr[n - 1]);
+        if (n == 1)
+            ans.add(arr[0]);
+        if (arr[0] >= arr[1])
+            ans.add(arr[0]);
+        if (arr[n - 1] >= arr[n - 2])
+            ans.add(arr[n - 1]);
         int low = 0, high = n - 1;
         while (low <= high) {
             int mid = (low + high) / 2;

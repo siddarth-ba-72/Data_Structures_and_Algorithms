@@ -43,6 +43,7 @@ public class _10_twoPointerAlgo {
     }
     // * TC: O(n^2)
 
+    // * TWO POINTER ALGORITHM
     // * Optimized solution
     // * Binary Search for Sorted Array
     public static void sumPair(int arr[], int k) {

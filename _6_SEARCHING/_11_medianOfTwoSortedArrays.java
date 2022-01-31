@@ -6,7 +6,7 @@ public class _11_medianOfTwoSortedArrays {
         Scanner sc = new Scanner(System.in);
         System.out.print("Length of a1:- ");
         int n1 = sc.nextInt();
-        System.out.print("Length of a2 (< length of a1):- ");
+        System.out.print("Length of a2 (> length of a1):- ");
         int n2 = sc.nextInt();
         int a1[] = new int[n1];
         int a2[] = new int[n2];

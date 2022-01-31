@@ -37,7 +37,7 @@ void printSpan(int arr[], int n)
 
 int main()
 {
-	int arr[] = {10, 4, 5, 90, 120, 80};
+	int arr[] = {100, 80, 60, 70, 60, 75, 85};
 	int n = sizeof(arr) / sizeof(arr[0]);
 	printSpan(arr, n);
 

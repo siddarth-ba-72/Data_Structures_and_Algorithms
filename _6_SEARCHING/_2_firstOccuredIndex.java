@@ -32,7 +32,7 @@ public class _2_firstOccuredIndex {
         sc.close();
     }
 
-    // Naive solution
+    // * Naive solution
     public static int firstOccNaive(int arr[], int k) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
@@ -41,10 +41,10 @@ public class _2_firstOccuredIndex {
         }
         return -1;
     }
-    // TC: O(n)
-    // AS: O(1)
+    // * TC: O(n)
+    // * AS: O(1)
 
-    // Optimized solution Recursive
+    // * Optimized solution Recursive
     public static int firstOccurenceRecursive(int arr[], int low, int high, int k) {
         if (low > high)
             return -1;
@@ -61,7 +61,7 @@ public class _2_firstOccuredIndex {
         }
     }
 
-    // Optimized solution Iterative
+    // * Optimized solution Iterative
     public static int firstOccurenceIterative(int arr[], int k) {
         int n = arr.length;
         int low = 0;
