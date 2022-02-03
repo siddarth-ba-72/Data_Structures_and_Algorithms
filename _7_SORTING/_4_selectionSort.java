@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-// ! UNSTABLE SORTING ALGORITHM
-
 public class _4_selectionSort {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -48,6 +46,8 @@ public class _4_selectionSort {
 	// * AS: O(n)
 
 	// * Optimized solution
+	// * SELECTION SORT ALGORITHM
+	// * UNSTABLE SORTING ALGORITHM
 	public static void selectionSort(int arr[]) {
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++) {

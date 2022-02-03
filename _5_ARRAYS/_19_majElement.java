@@ -21,7 +21,7 @@ public class _19_majElement {
         System.out.printf("ans = %d", k);
     }
 
-    // Naive solution
+    // * Naive solution
     public static int findMajNaive(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
@@ -36,9 +36,9 @@ public class _19_majElement {
         }
         return -1;
     }
-    // TC: O(n^2)
+    // * TC: O(n^2)
 
-    // Optimized solution
+    // * Optimized solution
     // ? MOORE's VOTING ALGORITHM
     public static int findMajority(int[] arr) {
         int n = arr.length;

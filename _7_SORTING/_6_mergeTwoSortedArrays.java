@@ -26,9 +26,10 @@ public class _6_mergeTwoSortedArrays {
 		mergeTwoSortedArrays(a, b);
 	}
 
-	// * Naive solution
 	// ? DIVIDE AND CONQUER ALGORITHM
-	// * Takes teo sorted arrays as input
+
+	// * Naive solution
+	// * Takes two sorted arrays as input
 	public static void mergeTwoSortedArraysNaive(int[] a, int[] b) {
 		int n = a.length;
 		int m = b.length;

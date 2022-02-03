@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-// ! STABLE SORTING ALGORITHM
-
 public class _3_bubbleSort {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -43,6 +41,8 @@ public class _3_bubbleSort {
 	}
 
 	// * Optimized solution
+	// * BUBBLE SORT ALGORITHM
+	// * STABLE SORTING ALGORITHM
 	public static void bubbleSort(int arr[]) {
 		int n = arr.length;
 		boolean swapped;
@@ -61,7 +61,6 @@ public class _3_bubbleSort {
 				break;
 		}
 	}
-	// * (n*(n-1))/2
 	// * TC: O(n^2)
 
 }
