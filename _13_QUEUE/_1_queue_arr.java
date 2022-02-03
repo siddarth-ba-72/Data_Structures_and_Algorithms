@@ -1,22 +1,22 @@
 package _13_QUEUE;
 
-class Queue {
+class Queue_ARR {
 	int size, capacity;
 	int front, rear;
 	int[] arr;
 
-	public Queue(int capacity) {
+	public Queue_ARR(int capacity) {
 		this.capacity = capacity;
 		front = this.size = 0;
 		rear = capacity - 1;
 		arr = new int[this.capacity];
 	}
 
-	boolean isFull(Queue qu) {
+	boolean isFull(Queue_ARR qu) {
 		return (qu.size == qu.capacity);
 	}
 
-	boolean isEmpty(Queue qu) {
+	boolean isEmpty(Queue_ARR qu) {
 		return (qu.size == 0);
 	}
 
@@ -74,7 +74,7 @@ class Queue {
 
 public class _1_queue_arr {
 	public static void main(String[] args) {
-		Queue qu = new Queue(5);
+		Queue_ARR qu = new Queue_ARR(5);
 		qu.enqueue(10);
 		qu.enqueue(20);
 		qu.enqueue(30);
