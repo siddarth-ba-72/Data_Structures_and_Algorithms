@@ -88,6 +88,15 @@ void detectAndRemoveLoop(Node *head)
 	} while (curr != slow);
 	cout << "Number of Nodes in loop: " << n << endl;
 	slow = head;
+	if (fast == head)
+	{
+		while (fast->next != head)
+		{
+			fast = fast->next;
+		}
+		fast->next = NULL;
+		return;
+	}
 	while (slow->next != fast->next)
 	{
 		slow = slow->next;
