@@ -47,4 +47,20 @@ struct Node
 			return 0;
 		return 1 + max(heightOfATree(root->left), heightOfATree(root->right));
 	}
+
+	int numOfNodes(Node *root)
+	{
+		if (root == NULL)
+			return 0;
+		return 1 + numOfNodes(root->left) + numOfNodes(root->right);
+	}
+	// * TC: O(n)
+
+	int maxNodeValue(Node *root)
+	{
+		if (root == NULL)
+			return 0;
+		return max(maxNodeValue(root->left), maxNodeValue(root->right));
+	}
+	// * TC: O(n)
 };
