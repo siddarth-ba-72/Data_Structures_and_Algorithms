@@ -1,5 +1,7 @@
 # Data Structures and Algorithms
 
+[450 questions excel file](https://github.com/siddarth-ba-72/Data_Structures_and_Algorithms/blob/master/dsa_practice_list.xlsx)
+
 ## Practice Questions
 
 #### Mathematics:
